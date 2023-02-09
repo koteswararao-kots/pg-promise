@@ -1,4 +1,4 @@
-const db = require('../../db/products');
+const db = require('../../db/pg/products');
 const {pubsub, channels, redisPublish, redisClient}    = require('../../lib/pubsub');
 let SPECIAL_KEY = 'PUBLISH_SUBSCRIBE|addProduct';
 

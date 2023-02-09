@@ -1,4 +1,4 @@
-const db = require('../../db/products');
+const db = require('../../db/pg/products');
 
 const getProducts = async () => {
     try {

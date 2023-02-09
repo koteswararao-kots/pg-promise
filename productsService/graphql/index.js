@@ -32,7 +32,7 @@ const {
         console.log("#############3")
         console.log("resp.msg", resp.msg);
         result = {
-          message: resp.toString(),
+          message: resp.msg.toString(),
           ...(resp.triggerTime && {triggerTime: resp.triggerTime})
         }
       } else {
